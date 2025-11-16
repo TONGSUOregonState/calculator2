@@ -13,6 +13,7 @@ project:
     - "physics-pipeline-react-2formulas/dist/**"
     - "donkey-react/dist/**"
     - "dsp-rz-react/dist/**"
+    - "optics-berkeley-react/dist/**"
 
 website:
   title: "calculator"
@@ -20,6 +21,10 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - text: "🔬 Optics Programs"
+        menu:
+          - href: optics-berkeley-react/dist/index.html
+            text: "Optics & Berkeley Programs"
       - text: "⚛️ React Projects"
         menu:
           - href: physics-pipeline-react/dist/index.html
